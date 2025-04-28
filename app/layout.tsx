@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "The Infernal Times",
   description: "Hell's Finest News Source",
+  appleWebApp: {
+    title: "Inf. Times",
+  },
 };
 
 export default function RootLayout({
